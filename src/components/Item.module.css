@@ -1,0 +1,50 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+  list-style-type: none;
+  display: flex;
+  border-spacing: none;
+  background-color: rgb(228, 228, 228);
+  padding: 0;
+  padding: 0px 15px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+ul li:hover {
+  background-color: blanchedalmond;
+}
+ul li button {
+  background-color: transparent;
+  width: 10px;
+}
+
+h5 {
+  margin: 0;
+  margin-top: 40px;
+  font-size: 16px;
+}
+.markDone {
+}
+.edit,
+.edit:hover {
+  color: rgb(26, 243, 26);
+}
+.delete,
+.delete:hover {
+  color: rgb(255, 107, 107);
+}
+.done,
+.done:hover {
+  color: black;
+}
+.edit:hover,
+.delete:hover,
+.done:hover {
+  transform: scale(1.2);
+}
