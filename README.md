@@ -8,8 +8,9 @@ It is a Todo app built with ReactJS. it includes CRUD operations. User can add h
 
 - Functional Components
 - Props
-- States
+- States (UseState, useEffect)
 - Styled Components
+- Local Storage
 - Click Handlers
 
 ## Available Scripts
